@@ -1,0 +1,733 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass dissertation
+\begin_preamble
+\bibpunct{(}{)}{,}{a}{,}{,}
+\end_preamble
+\use_default_options true
+\master main.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+General conclusions and discussion
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:General-conclusions-and"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Syntheses
+\end_layout
+
+\begin_layout Standard
+This study concerns Longshore Sediment Transport, more specifically with
+ the methods to predict it.
+ In this chapter I present summaries of the conclusions of each chapter
+ and an overall discussion.
+ I finish with some recommendations for future research and for the potential
+ application of the knowledge here presented.
+\end_layout
+
+\begin_layout Standard
+The so-called bulk formulas were studied on Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Bulk-LST-formulas"
+
+\end_inset
+
+.
+ In that chapter I analyzed the results of the most used formulas (CERC
+ and Kamphuis) and a more recent one (Bayram) with an extensive data set
+ and improved or updated the calibration coefficients.
+ I used a 
+\begin_inset Quotes eld
+\end_inset
+
+moving window" technique to produce a density measure of what I called 
+\emph on
+deltas
+\emph default
+, i.e., the logarithm of the difference between results of the original LST
+ formulas and measurements, which allowed us to inspect the respective distribut
+ions.
+ An Anderson-Darling test was used to check whether these 
+\emph on
+deltas
+\emph default
+ samples were likely to come from a normal distribution.
+ I found that that was more likely if the 
+\emph on
+deltas
+\emph default
+ were plotted as a function of 
+\begin_inset Formula $\nicefrac{H_{sb}}{L_{o}}$
+\end_inset
+
+.
+ A 
+\lang british
+Levenberg-Marquardt
+\lang english
+ optimizing algorithm was then used to find the best function and coefficients
+ for the LST formulas.
+\end_layout
+
+\begin_layout Standard
+The predictive skill of all three improved formulas (RMSE between 0.4 and
+ 0.41, negligible 
+\emph on
+bias
+\emph default
+ and percentage within a factor of 2 between 53% and 56%) was significantly
+ better than their previous versions (RMSE between 0.52 and 0.56, 
+\emph on
+bias
+\emph default
+ between -0.4 and 0.5 and percentage within a factor of 2 between 32% and
+ 48%).
+ The generality of the improved formulas was examined by applying the 
+\emph on
+bootstrapping
+\emph default
+ and 
+\emph on
+cross-validation
+\emph default
+ statistical methods, both of which returned similar results and confirmed
+ the generality of the formulations.
+\end_layout
+
+\begin_layout Standard
+In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Influence-of-profile"
+
+\end_inset
+
+ the influence of profile features was studied.
+ I tested LST rates calculated with the UNIBEST-LT (using the Van Rijn 2004
+ sediment transport formula) model for correlations with profile related
+ parameters.
+ The LST rates obtained with UNIBEST-LT varied significantly with the profile
+ used ranging from less than 100 000 m³/y to over 400 000 m³/y.
+ The root mean square downward slope showed the best correlation with the
+ calculated LST rates and all parameters directly related with slope showed
+ some correlation.
+ It is important to notice that these results were obtained with a model
+ and can not be considered a proper dataset.
+ However, the sediment transport formulation has been calibrated with an
+ extensive laboratory dataset.
+ It is also important to notice that our UNIBEST-LT simulations didn't account
+ for tide or wind generated currents and obviously also for 3D effects (longshor
+e variability).
+\end_layout
+
+\begin_layout Standard
+In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:chapter4"
+
+\end_inset
+
+ I examined the effect of wave breaking induced turbulence on LST rates
+ and attempted to implement a model that takes that effect into account.
+ The effect was clearly observed on laboratory data measured at the LSTF
+ basin in Vicksburg.
+ The dataset included tests with (Test 3) and without (Tests 1 and 5) plunging
+ wave breaking.
+ LST rates in Test 3 were significantly higher than in Test 1, even though
+ the incident wave energy was similar.
+ This difference could be caused by either higher longshore velocities,
+ higher sediment concentrations or the combination of both effects.
+ Sediment concentration and velocity measurements indicate that higher concentra
+tions were the main cause as they were significantly higher in Test 3 over
+ the bar, while velocities were similar in the three tests.
+ One could safely conclude that these high concentrations were most likely
+ caused by wave breaking induced turbulence resulting from the plunging
+ breakers.
+ Moreover, a sequence of waves that start breaking approximately at the
+ same point of the domain could also have contributed to the higher sediment
+ concentrations higher in the water column.
+ In this case sediment stirring is done in steps, where the sediment does
+ not settle totally between waves and is pushed higher in the water column
+ by successive breaking waves.
+ This mechanism potentially generates higher concentrations on steeper bars
+ where waves with different heights start breaking at locations that are
+ close to each other, over a short cross-shore stretch.
+ These two effects: plunging breakers and narrow profile stretch where waves
+ start breaking may have caused the higher suspended sediment concentrations
+ observed in test 3.
+\end_layout
+
+\begin_layout Standard
+In order to estimate LST rates accurately, a reliable wave propagation and
+ longshore current generation model is necessary.
+ I implemented a wave energy balance model and tested four different formulation
+s for wave breaking dissipation.
+ The results obtained with different formulations didn't vary notably but
+ the formulation by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Alsina2007"
+
+\end_inset
+
+ compared slightly better with the measurements and was chosen for that
+ reason.
+ From the implementation process I found the following aspects to be very
+ important: 1) the difference between results with and without a roller
+ were significant, especially on test 3 where the bar is more prominent.
+ The roller distributes the longshore forcing across the surfzone resulting
+ in a much more realistic prediction.
+ 2) within the roller model, the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ coefficient can influence significantly the trend of the velocities across
+ the profile.
+ This coefficient is understood as being the representation of the wave
+ front angle.
+ However, it was used as a free parameter in this study.
+ 3) The bottom friction coefficient is also a very important calibration
+ parameter.
+ It controls the magnitude of the velocity which is very sensitive to this
+ parameter.
+\end_layout
+
+\begin_layout Standard
+I attempted to model numerically the influence of wave breaking induced
+ turbulence on LST.
+ For that a Bagnold/Bailard/Bowen model coupled with a simple turbulence
+ model was chosen.
+ The main challenge was to find a factor that accounts for the effects of
+ plunging breakers and initiation of breaking that could be used to control
+ the rate of turbulence decay in the vertical profile.
+ The generally accepted parameters that account for these effects (
+\begin_inset Formula $\nicefrac{H_{s}}{h}$
+\end_inset
+
+ and Iribarren number) depend only on local conditions and have no 
+\begin_inset Quotes eld
+\end_inset
+
+memory
+\begin_inset Quotes erd
+\end_inset
+
+ of what happened to the waves before.
+ Our solution uses the cross-shore gradient of the roller energy (
+\begin_inset Formula $E_{r}$
+\end_inset
+
+) as a parameter.
+ The only test with significant turbulence higher in the water column was
+ Test 3 and was therefore used to calibrate the turbulence model.
+ Obviously this calibration is poor (I could only use the two points over
+ the bar) but I was unable to find another dataset to perform further validation.
+ However, the model simulated the turbulence and longshore transport reasonably
+ well in test 3 and is based on sound physical reasoning.
+ For tests 1 and 5, i.e., the cases without plunging breakers, the Bagnold/Bailard
+/Bowen sediment transport model was quite accurate at predicting LST across
+ the profiles.
+ It is important to note that a significant parcel of the transport occurs
+ very close to the shore (referred in the text as the swash zone).
+ It accounts for a significant part of the transport in Test 5 and a non
+ negligible part in tests 1 and 3.
+ The transport in the swash zone cannot be calculated with the kind of model
+ used in this study as its assumptions lose validity on very shallow water.
+\end_layout
+
+\begin_layout Standard
+In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:LST-model-evaluation"
+
+\end_inset
+
+ I investigated the validity of the model.
+ On a first step I studied the model results on a parameter space exploration
+ using flat profiles (profiles with a constant slope) and different wave
+ inputs.
+ It was observed that the results that include the turbulence effects start
+ differing from the results without this turbulence effect in slopes steeper
+ than 0.025, increasing almost exponentially in steeper slopes.
+ The effect is stronger for conditions with lower wave steepness, suggesting
+ a Iribarren number type of dependency.
+ The results with turbulence effects were also compared to the results of
+ the Kamphuis formula (eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:kamphuis"
+
+\end_inset
+
+) presented in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Bulk-LST-formulas"
+
+\end_inset
+
+ as this formula also includes a slope factor.
+ Results were of the same magnitude order, but the dependency on slope was
+ stronger with our model, while the Kamphuis results showed an almost linear
+ dependency.
+\end_layout
+
+\begin_layout Standard
+Next, the same analysis was performed on real profiles, measured at the
+ Dutch coast.
+ I chose two profiles from the same location, one measured in the summer
+ and one measured in the winter.
+ The profiles, that had similar average slope values, differed in the smoothness
+: the summer profile was much smoother while the winter profile had higher
+ slope variability as expected.
+ The calculated transport was significantly higher for the winter profile.
+ Especially important for these results was the steep berm present in the
+ winter profile.
+ The LST values calculated are much higher when the breaking zone falls
+ in that area.
+\end_layout
+
+\begin_layout Standard
+In the end I used the Vluchtenburg case study to find how the model performs
+ when applied to a real case.
+ Having in mind that the model could not be properly calibrated and validated
+ I tried to assess the competence of the model in predicting the evolution
+ of volume loss observed at the large-scale nourishment in Vluchtenburg
+ in the first 10 months.
+ The results indicate that the model could, although not perfectly, predict
+ the trend of volume losses in the initial period.
+ This result does not constitute proper validation but it is evidence that
+ this way to include turbulence effects may be valid.
+ 
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+In this study I covered different approaches to estimate LST.
+ I started analyzing the so called bulk formulas.
+ As expected from their simplicity their accuracy is low.
+ In this dataset and using the improved coefficients, almost 50% of the
+ predicted points were more than a factor of two different from the measurements.
+ Perhaps this variability can be further reduced with the inclusion of other
+ coefficients that account for phenomena that are not included in the formulas.
+ One such coefficient could be a representation of the effect of the slope
+ on the breaking type which introduces differences on sediment stirring
+ and consequently leads to higher LST.
+ Currently only the Kamphuis formula includes a slope factor.
+ Because this factor, slope at the breaker point, is hard to define, many
+ times the average slope of the profile is introduced in the formula instead.
+ This happens for two reasons: 1) rarely there is detailed information about
+ the bathymetry and 2) even with that information one must decide which
+ slope to use, which can be difficult when there are multiple breaking zones.
+\end_layout
+
+\begin_layout Standard
+In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Influence-of-profile"
+
+\end_inset
+
+ I attempted to find a slope related parameter that correlated well with
+ LST results calculated with the model UNIBEST-LT on a high number of profiles
+ measured on the Dutch coast.
+ The best parameter was the 
+\begin_inset Quotes eld
+\end_inset
+
+root-mean-square downwards slope
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Intuitively, the use of this parameter makes sense because waves break
+ only in downward slopes (going down in the offshore direction) and because
+ the root-mean-square measure penalizes profiles with higher variability,
+ i.e., profiles with steeper sections.
+ Although the UNIBEST-LT model results vary proportionally with the slope
+ (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:LST-vs-m-1"
+
+\end_inset
+
+), later in the study, when comparing with laboratory data, I found that
+ it was not representing wave breaking accurately.
+ For that reason I developed a new model that aimed to represent more accurately
+ the processes involved in wave breaking.
+ Unfortunately I did not have the data to properly validate this model and
+ then repeat the exercise using it.
+ Nevertheless, UNIBEST-LT seemed to produce reliable bulk load predictions
+ in the laboratory case and that is a reason to trust these results.
+ This is evidence that one should consider the use of profile related parameters
+ as factors in bulk formulas.
+ Unfortunately, the data set used in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Bulk-LST-formulas"
+
+\end_inset
+
+ does not have detailed profile information that could be used to test this
+ hypothesis.
+\end_layout
+
+\begin_layout Standard
+The process-based model implemented in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:chapter4"
+
+\end_inset
+
+ presents a novel parametrization for the vertical decay of wave breaking
+ generated turbulence.
+ The ruling parameter is proportional to the cross-shore gradient of the
+ energy of the roller.
+ I showed that this parameter captured the initiation of breaking and the
+ breaking type effects present in the laboratory data.
+ This parametrization also has the advantage of having a memory, i.e., it
+ does not depend only on local factors but also on what happened before
+ the wave reached a given position.
+ It was this fact the led me to choose this parameter instead of a more
+ traditional parameter such as the Iribarren number (eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:surf_similarity"
+
+\end_inset
+
+) that also looked like a good candidate (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Suggested-scale-lengths"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+As I explored the parameter space of the model results in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:LST-model-evaluation"
+
+\end_inset
+
+ I could see that as intended the model produces more transport on steeper
+ slopes.
+ Also remarkable is the fact that the results were of the same magnitude
+ order as the bulk formulas results, despite being calibrated with only
+ three data points that refer to a completely different (much smaller) scale.
+ What needs attention in a further calibration/validation study are the
+ very high transport values registered close to the shore (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variation-of-the"
+
+\end_inset
+
+), which happen when a maximum of transport occurs close to the end of the
+ calculation domain.
+ I did not find a numerical reason for this somewhat unexpected result but
+ I do not rule out that there is a numerical problem.
+ These very high values close to the shore may result in a overestimation
+ of the bulk predictions that may have introduced more uncertainty in the
+ modeling exercise with field data.
+ As for our case study application, it is important to notice that the measured
+ volume losses could also be influenced by factors that are not taken into
+ account in the model such as: currents generated by tide or wind and the
+ alongshore variability of the profiles.
+ The tide generated currents may play some special role when one considers
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Variation-of-the"
+
+\end_inset
+
+.
+ In this situation, more sediment is transported during low tide than in
+ high tide.
+ On the Dutch coast the horizontal and vertical tides are in phase which
+ means that during low tide there is a southwards directed alongshore current
+ which could generate a net southwards transport component that is independent
+ of the wave generated alongshore current.
+ 
+\end_layout
+
+\begin_layout Standard
+The knowledge of the dependency between the slope at the breaking point
+ and LST has the potential be useful to control the volume loss rate of
+ sediment nourishments in the coast.
+ Depending on the goal of the nourishment, the slope at the breaking zone
+ can be differently engineered: milder slope if the goal is that the sediment
+ stays in the nourished area and steeper slope if the goal is that sediment
+ spreads quickly to the adjacent areas.
+ Another potential use of this knowledge is of a real time vulnerability
+ warning system, when used in conjunction with coastal video monitoring
+ systems like Argus 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lippmann1989"
+
+\end_inset
+
+ and wave forecast.
+ The monitoring can give an estimation of the bathymetry, e.g., with the cBathy
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Holman2013"
+
+\end_inset
+
+ algorithm, or using time-stacked images of the breaking waves to have a
+ measure of the width of the transition zone between no-breaking and breaking
+ waves.
+ This measurement is directly related to the cross-shore gradient of roller
+ energy.
+ This way it would be possible to forecast potentially threatening LST gradients
+ with a few days in advance.
+\end_layout
+
+\begin_layout Section
+Recommendations
+\end_layout
+
+\begin_layout Standard
+The most obvious recommendation is that much more LST data is needed if
+ we want to improve the accuracy of the predictions.
+ This is also stressed in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rijn2013"
+
+\end_inset
+
+.
+ Even the most sophisticated model uses simplifications as it is impossible
+ to simulate all processes up to the molecular level.
+ Therefore there will always be a need for data to calibrate and validate
+ the models.
+ More specifically for our model, detailed concentration data in the surfzone
+ is highly needed along with longshore current measurements.
+ Also, turbulence measurements in the surfzone would be very useful for
+ a calibration of the turbulence model.
+ Once the model presented in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:chapter4"
+
+\end_inset
+
+ is properly validated, the methodology presented in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Influence-of-profile"
+
+\end_inset
+
+ could be repeated using it.
+ It would be then interesting to compare its results with UNIBEST-LT's and
+ verify if the correlations between the calculated LST and the parameters
+ considered still hold.
+ With more data is also possible to improve the model and test, for example,
+ a more sophisticated turbulence model.
+\end_layout
+
+\begin_layout Standard
+When measurements are carried out, it would be interesting to measure also
+ the transport that occurs in the swash zone.
+ Although this kind of transport does not concern the model presented in
+ this study, it is important to know how important is its contribution.
+\end_layout
+
+\begin_layout Standard
+In terms of general scientific research I emphasize the importance of a
+ good validation (using the bootstrapping or cross-validation techniques)
+ for scientific repeatability.
+ If the data set is to be divided into calibration and validation sets,
+ it is desirable that this division is made available so the results can
+ be replicated.
+ Also very important for scientific progress is the availability of the
+ data sets so results can be easily replicated.
+\end_layout
+
+\begin_layout Section
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+I would like to thank specially Rosh Ranasinghe for supervising my first
+ three years of the PhD.
+ I would also like to thank Jaap van Thiel de Vries for the great help in
+ that same period of time.
+\end_layout
+
+\begin_layout Standard
+I would like to acknowledge the USACE and Ernest R.
+ Smith for allowing public use of the laboratory dataset used in chapter
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:chapter4"
+
+\end_inset
+
+.
+ I also wish to express our gratitude to Dr.
+ Atilla Bayram (Halcrow, Inc.) and Prof.
+ Magnus Larson (Lund University, Sweden) for kindly providing the data set
+ used in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Bulk-LST-formulas"
+
+\end_inset
+
+.
+ The authors also acknowledge the contribution of Pieter van Gelder for
+ his help and insights in the statistical analysis.
+\end_layout
+
+\begin_layout Standard
+This research was funded by 
+\begin_inset Quotes grd
+\end_inset
+
+Funda
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+c{c}
+\backslash
+~a
+\end_layout
+
+\end_inset
+
+o para a Ci
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+^e
+\end_layout
+
+\end_inset
+
+ncia e a Tecnologia” and the European Union, to which I am deeply grateful.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "library2"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

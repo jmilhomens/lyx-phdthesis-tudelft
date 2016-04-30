@@ -1,0 +1,2661 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass dissertation
+\begin_preamble
+\bibpunct{(}{)}{;}{a}{,}{,}
+\end_preamble
+\use_default_options true
+\master main.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Data set characterization
+\end_layout
+
+\begin_layout Standard
+In this study the same data set used in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bayram2007"
+
+\end_inset
+
+ is used.
+ The data set consists on a compilation of several smaller data sets, that
+ span in time from 1953 to as recently as 2004.
+ There is a big variety of methods used in the data collection, from visual
+ observation of wave heights, to the more sophisticated backscattering methods
+ of measuring suspended sediment concentration.
+ There are also measurements with different time frames, ranging from the
+ space of a few minutes to months.
+\end_layout
+
+\begin_layout Section
+Data sets
+\end_layout
+
+\begin_layout Standard
+The data sets are enumerated in the following paragraphs.
+ Each description consists of a summary of the methods used, and the score
+ given is an evaluation of the quality of the data set performed in 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ (when available).
+\end_layout
+
+\begin_layout Paragraph
+South Lake Worth Inlet, Florida, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Watts1953"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The longshore transport was estimated from the pumping rate of a sand bypass
+ system located at the referred inlet.
+ The experiment went on from February to June 1952.
+ The wave data was measured at the tip of the Palm Beach Pier (5.5m depth),
+ located 15km north of the place of the experiment.
+ The wave angle was determined by visual observation, from the rooftop of
+ a nearby building.
+ The current in the surf zone were measured with a fluorescent dye.
+\end_layout
+
+\begin_layout Standard
+The data consists in 3 points of long term measurements.
+ The wave measurements were averaged during the period of observation.
+ The averaging of results, and the poor accuracy of the wave angle measurements,
+ makes this data set somehow unreliable.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 42.
+\end_layout
+
+\begin_layout Paragraph
+Anaheim Bay, California, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Caldwell1956"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dredged material from the entrance to Anaheim Bay was placed on the downdrift
+ (southeast) shore, and repeated surveys of this area were conducted as
+ the material was transported in a southerly direction.
+ Changes in volume were interpreted as longshore transport rates.
+ Estimates of longshore component of wave energy flux were based on: wave
+ staff measurements from the Huntington Beach pier about 9 kilometers to
+ the south, and wave directions based on hindcasts and recognition of the
+ sheltering by the offshore islands for waves originating from certain direction
+s.
+ This study provided five data points.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 46.
+\end_layout
+
+\begin_layout Paragraph
+Miyazu, Japan 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ISHIHARA1958"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Longshore transport was measured by means of long term accretion at temporary
+ groyne.
+ The data set contains 10 points.
+ The reference to this data set could not be found.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 37.
+\end_layout
+
+\begin_layout Paragraph
+Cape Thompson, Alaska, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Moore1960"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The growth of a spit and associated waves were observed over a 3-hour period.
+ Spit volumes were measured by plane table survey, and wave characteristics
+ were based on visual estimates.
+ Only one data point was obtained.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 60.
+\end_layout
+
+\begin_layout Paragraph
+Cototnou, Benim 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sireyjol1964"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One data point obtained by measured accretion.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ the score was 51.
+\end_layout
+
+\begin_layout Paragraph
+Aveiro, Portugal and Lobito, Angola 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Castanho1966"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Longshore transport was measured by means of long term accretion at breakwater
+ (Aveiro) and growth of a sand spit (Lobito).
+ The data set contains 2 points.
+ The reference to this data set could not be found.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 52.
+\end_layout
+
+\begin_layout Paragraph*
+Ivory Coast 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bijker1968"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Publication not available.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 17.
+\end_layout
+
+\begin_layout Paragraph
+El Moreno and Silver Strand, California, USA and Mexico 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Komar1970"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The two different locations were chosen in order to collect data under a
+ variety of wave conditions.
+ The two locations differ significantly in beach configuration and in the
+ magnitude of the waves causing the sand transport.
+ The direction and flux of wave energy were measured by an array of digital
+ wave sensors placed in the nearshore zone.
+ Longshore currents were measured using a dye patch injected into the surf
+ zone and or floats of near neutral buoyancy.
+ Grain diameter and beach slope were also measured.
+ In this data set, the sediment transport was measured with tracers.
+ Two to four hours after the injection of the dyed sediment, samples were
+ collected at points a grid.
+ 
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 62.
+\end_layout
+
+\begin_layout Paragraph
+Lake Michigan, Wisconsin, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee1975"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this study, the bed-load transport was measured with box-type samplers.
+ The suspended load was also measured with mechanical samplers.
+ The sampling time was kept at 20 min.
+\end_layout
+
+\begin_layout Standard
+The wave characteristics were measured mostly with visual methods: wave
+ height was measured from visual observation of a graduated pole standing
+ at the breaker zone, the wave period with a stop watch and wave angle from
+ pictures taken from a bluff.
+ The longshore current at the breaker was estimated with a water filled
+ balloon or with a fluorescent dye.
+ The movements of the balloons and dye were tracked and timed from shore
+ during intervals of 5 to 10 min.
+ All this measurements were averaged during the sampling time.
+\end_layout
+
+\begin_layout Standard
+Beach profiles were also measured, using transit and rods.
+ The beach slope was plotted for every sampling interval.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 57.
+\end_layout
+
+\begin_layout Paragraph
+Price Inlet, South Carolina, USA (
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kana1977"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Sampler measurements were made with a portable device that could sample
+ several heights in the water column at the same time.
+ Wave heights were measured with a staff placed in the breaker zone.
+ Longshore current velocities were measured with floats.
+ There are 4 data points from this experiment in the data set.
+\end_layout
+
+\begin_layout Standard
+The method used in this experiment seems to be incapable of estimating the
+ whole cross-shore section transport.
+ The wave characteristics were not very reliably measured.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 48.
+\end_layout
+
+\begin_layout Paragraph
+Ventnor and Nags Head, East Coast, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fairchild1977"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A pump-sampler was used to measure sediment concentration along the piers
+ at the two locations.
+ Wave data was obtained from a wave gage system (Ventnor) or a staff gage
+ on the pier (Nags Head).
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 36 (Ventnor) and 37 (Nags Head).
+\end_layout
+
+\begin_layout Paragraph
+Torrey Pines, USA
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Inman1980"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two data points obtained with tracers and samplers.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ the score was 60.
+\end_layout
+
+\begin_layout Paragraph
+Point Mugu
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Duane1980"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tracers were used to measure sediment transport.
+ Wave data was measured by an array of pressure gages at a depth of -9m.
+ The experiment produced only one data point.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 56.
+\end_layout
+
+\begin_layout Paragraph
+Channel Islands, California, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bruno1981"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An offshore breakwater and twin jetties at the Channel Islands Harbor form
+ a unique sand trap, and was therefore an ideal case for measuring longshore
+ sand transport.
+ This setup is considered to be nearly a total littoral barrier to longshore
+ sand transport.
+\end_layout
+
+\begin_layout Standard
+The data collection program consisted of periodic bathymetric and topographic
+ surveys, routine wave data from which longshore transport and the wave
+ energy flux could be calculated, and sediment samples taken during the
+ study period to obtain quantitative information on the sand size at the
+ site.
+ This study lasted three years and was divided in two phases, yielding 18
+ data points.
+ 
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had scores of 55 (phase I) and 67 (phase II).
+\end_layout
+
+\begin_layout Paragraph
+West Africa 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Delorme1981"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 49.
+\end_layout
+
+\begin_layout Paragraph
+Leadbetter Beach, California, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gable1981"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+The LST rates were measured from observed accretion at a break-water.
+ Every 6-8 weeks, bathymetry surveys were performed, extending from dry
+ beach to a depth of about 10 m.
+ Wave climate was measured by two arrays located at a depth of approximately
+ 7 m.
+ The wave climate was averaged during the period of observation.
+ The measurements yielded 8 LST data points.
+ 
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 68.
+\end_layout
+
+\begin_layout Paragraph
+Pointe Sapin, Canada 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kooistra1984"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Couldn't find original paper.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 71.
+\end_layout
+
+\begin_layout Paragraph
+University of Florida Coastal and Oceanographic Engineering Laboratory,
+ Florida, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bodge1986"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A set of experiments were performed in the University of Florida Coastal
+ and Oceanographic Engineering Laboratory's basin.
+ The basin is approximately 28 m x 28 m, and is equipped on one end with
+ an 88 paddle directional "snake" wavemaker capable of producing regular
+ waves with a single desired direction.
+ The main method used to measure sediment transport was impoundment on a
+ sheet-metal barrier.
+ Tracers were also used to estimate cross shore distribution of transport
+ and to access possible groyne bypass.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ there was no mention of this data.
+\end_layout
+
+\begin_layout Paragraph
+Black Sea coast, Ukraine 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Voitsekhovich1986"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The measurements were done using samplers.
+ The data set contains 32 points.
+ The reference to this data set could not be found.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 57.
+\end_layout
+
+\begin_layout Paragraph
+Shoreham, UK 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Chadwick1989"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The measurements were done using gravel traps.
+ The data set contains 7 points.
+ The reference to this data set could not be found.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 60.
+\end_layout
+
+\begin_layout Paragraph
+Southeast and Gulf coast, USA 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wang1998a"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The LST measurements were carried out with streamer traps.
+ In two of the data points, at the Indian Rocks beach, short-term impoundment
+ was also used.
+ The field sites were chosen so wide ranges of morphodynamic and hydrodynamic
+ conditions were included.
+ Sediment size and beach slope were also measured.
+ The traps were mounted on a rack.
+ The number of traps on each rack varied from four to eight, depending on
+ the water depth and breaker height.
+ Depending on the with of the surf zone, three to six racks were mounted
+ along a cross-shore section.
+\end_layout
+
+\begin_layout Standard
+The wave height and period were measured by video recording of scaled photo
+ poles.
+ At least 20 waves were measured to determine 
+\begin_inset Formula $H_{rms}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{p}$
+\end_inset
+
+.
+ Five to fifteen wave angles were also measured with an hand-held compass
+ and averaged.
+\end_layout
+
+\begin_layout Standard
+For the impoundment measurements, a 10 m long temporary barrier was used.
+ The bathymetry surveys were conducted before and at two times after the
+ barrier was deployed.
+ Streamer traps were used at the same time.
+\end_layout
+
+\begin_layout Standard
+This data set appears to be quite reliable.
+\end_layout
+
+\begin_layout Paragraph
+Duck, North Carolina, USA
+\end_layout
+
+\begin_layout Standard
+A number of experiments were carried out in the Coastal Engineering Research
+ Center's (CERC) Field Research Facility (FRF), near Duck, North Carolina,
+ USA:
+\end_layout
+
+\begin_layout Subparagraph
+Bodge 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bodge1986"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This data set was collected using impoundment of longshore sediment transport
+ against a shore-perpendicular barrier rapidly deployed across an initially
+ undisturbed beach.
+ For each impoundment experiment, a shore-perpendicular sand-bag groyne
+ was constructed approximately 150 meters south of the FRF pier, during
+ the low tide period.
+ Usually two beach profile surveys were possible before the surf zone migrated
+ offshore of the groyne tip, one during the rising tide, and one during
+ the falling tide.
+\end_layout
+
+\begin_layout Standard
+Current was measured with impeller-type current meters (aligned shore parallel),
+ mounted close to the bed on jetted steel pipes.
+ Directional and spectral wave data was collected by gauges located close
+ to the FRF pier.
+ Wave height at the breaker was visually recorded, and wave angle was measured
+ by HF radar imagery.
+ Sediment samples were also analyzed.
+\end_layout
+
+\begin_layout Standard
+In general, impoundment data is considered to be less reliable because of
+ the long term character.
+ In this case, however, the measurement time is short enough to have constant
+ wave characteristics during the experiment.
+ There are six points in the data set.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had scores of 56 (groyne 2), 58 (groyne 3) and 61 (groyne
+ 4).
+\end_layout
+
+\begin_layout Subparagraph
+DUCK85
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kraus1989"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The LST was measured with portable streamer traps in the surf zone (depths
+ of about 1 m).
+ Six or seven arrays of traps were deployed simultaneously along a line
+ crossing the surf zone.
+ The wave heights were measured by filming poles that were positioned along
+ a cross shore section in the surf zone.
+ Longshore currents were also measured with electromagnetic current meters.
+\end_layout
+
+\begin_layout Standard
+The main problem with this data set is that the wave angle at the breaker
+ zone was not recorded.
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schoonees1993"
+
+\end_inset
+
+ this data set had a score of 55.
+\end_layout
+
+\begin_layout Subparagraph
+SANDYDUCK 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Miller1999"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This experiment made use of optical backscattering sensors.
+ The optical backscatter sensor (OBS) allows for a measurement of the sediment
+ concentration within the water column in great detail at time scales of
+ fractions of a second.
+ Measurements were made at at least nine positions across a barred profile.
+ The sensors (OBS, electromagnetic current meters, wave gauges, amongst
+ others) were mounted in an array fixed to a track-mounted crane that could
+ move along the research pier (the Sensor Insertion System, SIS).
+ The measurements were made in the most possible stable hydrodynamic conditions
+ (within 1.5 hours of high or low tide).
+ During this three hour period, several measurements were made along the
+ profile.
+ Each measurement took 512 seconds, which allowed for the SIS to measure
+ at least nine locations on the profile.
+\end_layout
+
+\begin_layout Standard
+Wave data was obtained from a directional pressure gauge array, located
+ at -8 m depth, slightly offshore and north of the research pier.
+\end_layout
+
+\begin_layout Standard
+Most of the measurements were taken in storm conditions, in opposition to
+ most of the other data sets.
+ The methods used in this experiment make this data set very reliable.
+\end_layout
+
+\begin_layout Paragraph
+LSTF 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Smith2003"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This data set was collected at the Large-scale Sediment Transport Facility
+ (LSTF) of the US Army Engineer Research and Development Center’s Coastal
+ and Hydraulics Laboratory.
+ The LSTF is a large-scale laboratory facility, 30-m wide, 50-m long, 1.4-m
+ deep, and is capable of simulating conditions comparable to low-energy
+ coasts.
+\end_layout
+
+\begin_layout Standard
+Sediment transport was measured with traps located at the downdrift boundary,
+ which covered the entire surf zone.
+ Wave data was measured by ten single-wire capacitance-type wave gauges,
+ mounted in the instrumentation bridge that was placed in a cross shore
+ transect.
+\end_layout
+
+\begin_layout Standard
+From the methods used, the measurements in this data set seem to be very
+ reliable.
+\end_layout
+
+\begin_layout Paragraph
+Karwar, India 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "SanilKumar2003"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this study, the cross-shore distribution of LST was estimated daily,
+ using simultaneous measurements at 6 points across the surf zone during
+ February to May.
+ At each point, vertical distributions of the LSTR were obtained by placing
+ a number of traps in an array.
+ Mesh traps having circular openings were used for measuring the suspended
+ load transport and the streamer traps for measuring bed load transport.
+\end_layout
+
+\begin_layout Standard
+The wave data used was collected by India's National Institute of Oceanography
+ using wave buoy at 16-m water depth off Arge Beach.
+ Significant wave height (
+\begin_inset Formula $H_{s}$
+\end_inset
+
+), mean wave period (
+\begin_inset Formula $T_{m}$
+\end_inset
+
+), and wave direction with respect to north corresponding to the peak of
+ the wave spectrum (maximum spectral energy) data were used.
+ Surf zone width and longshore current were also measured.
+\end_layout
+
+\begin_layout Standard
+One problem with the data set is that only 
+\begin_inset Quotes eld
+\end_inset
+
+wet weight
+\begin_inset Quotes erd
+\end_inset
+
+ is given as a result.
+ The author mentions dry mass values, but doesn't specify how he converted
+ those values.
+ A conversion assuming that the porosity of the collected sediment was still
+ 
+\begin_inset Formula $p=0.4$
+\end_inset
+
+, and the pores were filled with salt water.
+ The density values used were:
+\begin_inset Formula $\rho_{s}=2650$
+\end_inset
+
+ 
+\begin_inset Formula $kg/m\text{³}$
+\end_inset
+
+ and 
+\begin_inset Formula $\rho=1025$
+\end_inset
+
+ 
+\begin_inset Formula $kg/m\text{³}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+There are 80 points in this data set but in 22 wave data was collected only
+ by visual observation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="30" columns="5">
+<features rotate="0" islongtable="true" firstHeadBottomDL="true" headBottomDL="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="20text%">
+<column alignment="left" valignment="middle" width="20text%">
+<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="15text%">
+<column alignment="center" valignment="top" width="20text%">
+<row endhead="true" caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Data set summary
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Data-set-summary"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true" endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+publication
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+location
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+method
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+number of points
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+score 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schoonees1993"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Watts1953"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+South Lake Worth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sand bypass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+42
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Caldwell1956"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anaheim Bay
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+erosion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ISHIHARA1958"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Miyazu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Moore1960"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cape Thompson
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+spit-growth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Sireyjol1964"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cotonou
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Castanho1966"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aveiro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Castanho1966"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ Lobito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+spit-growth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph*
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bijker1968"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ivory Coast
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unknown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Paragraph
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Komar1970"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+El Moreno/ Silver Strand
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tracer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Lee1975"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lake Michigan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+samplers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+57
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kana1977"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Price Inlet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+samplers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Fairchild1977"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ventnor and Nags Head
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+samplers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36/37
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "Inman1980"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Torrey Pines
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tracers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Duane1980"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Point Mugu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tracers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bruno1981"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Channel Islands
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18 (6)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+55 (phase I) 67 (phase II)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Delorme1981"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+West Africa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+unknown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Gable1981"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leadbetter Beach
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+68
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kooistra1984"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pointe Sapin
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+accretion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bodge1986"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+University of Florida
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+impoundment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Voitsekhovich1986"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Black Sea Coast
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+samplers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+57
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Chadwick1989"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shoreham
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+traps
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Wang1998a"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Southeast/ Gulf Coast
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+traps
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+impoundment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Bodge1986"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Duck
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+impoundment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+56/58/61
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kraus1989"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+samplers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+55
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Miller1999"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OBS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Smith2003"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LSTF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+traps
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citet
+key "SanilKumar2003"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Karwar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+traps
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "library2"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
